@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { addText, addTodo, removeTodo, removeDone, toggleTodoCompleted } from './store/TodoSlice'
 import { useSelector, useDispatch } from 'react-redux';
 import { Radio } from '@mui/material';
 import './App.css'
-import { todo } from 'node:test';
 
 interface listTodo {
   id: string,
